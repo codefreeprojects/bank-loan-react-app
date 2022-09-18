@@ -110,7 +110,7 @@ export const EditProfile = () => {
                       name="aadharNumber"
                       className="w-100"
                       variant="outlined"
-                      label="Aadhar Number"
+                      label="PAN Number"
                       type={"text"}
                       required
                     />
