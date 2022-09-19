@@ -20,7 +20,7 @@ export const EditProfile = () => {
     lastName: "",
     email: "",
     password: "",
-    aadharNumber: "",
+    aadharNumber: "123",
     role: "CUSTOMER",
   });
   useEffect(() => {
@@ -102,16 +102,6 @@ export const EditProfile = () => {
                       variant="outlined"
                       label="Password"
                       type={"password"}
-                      required
-                    />
-                  </Col>
-                  <Col md={12} className="mt-4">
-                    <TextInput
-                      name="aadharNumber"
-                      className="w-100"
-                      variant="outlined"
-                      label="PAN Number"
-                      type={"text"}
                       required
                     />
                   </Col>
